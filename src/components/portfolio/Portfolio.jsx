@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import IMG0 from '../../assets/proj0.png'
 import IMG1 from '../../assets/proj1.png'
 import IMG2 from '../../assets/proj2.png'
 import IMG3 from '../../assets/proj3.png'
@@ -58,6 +59,16 @@ const Portfolio = () => {
           <h3>Car_loan_EMI_calculator_app</h3>
           <div className='portfolio__item-cta'>
           <a href='https://github.com/muskansingh9421/Car_loan_EMI_calculator_app' className='btn btn-primary' target='_blank'>Github</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'></div>
+          <img src={IMG0} alt=''/>
+          <h3>Disney+ clone</h3>
+          <div className='portfolio__item-cta'>
+          <a href='https://github.com/muskansingh9421/Disney_Clone' className='btn btn-primary' target='_blank'>Github</a>
+          <a href='https://disney-clone-indol.vercel.app/home' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
